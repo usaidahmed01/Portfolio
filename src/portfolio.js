@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import CV from "../src/containers/greeting/Usaid_Ahmed_CV.pdf"
+import CV from "../src/containers/greeting/resume.pdf"
 
 // Splash Screen
 
