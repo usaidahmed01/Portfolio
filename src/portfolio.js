@@ -24,7 +24,7 @@ const greeting = {
   username: "Usaid Ahmed",
   title: "Hi all, I'm Usaid",
   subTitle: emoji(
-    "A passionate MERN Stack Software Developer 🚀 having an experience of building Web and Mobile applications with HTML / CSS (Bootstrap , Tailwind) / JavaScript / Reactjs / Nodejs / React Native / Nextjs / MongoDB / Firebase / Redux / Express and some other cool libraries and frameworks. Also I have good command on C++ / JAVA"
+    "A passionate MERN Stack Software Developer 🚀 having an experience of building Web and Mobile applications with HTML / CSS (Bootstrap , Tailwind) / JavaScript / Reactjs / Nodejs / React Native / Nextjs / MongoDB / Firebase / Redux / Express and some other cool libraries and frameworks. Also I have good command on C++ / JAVA. \n Now, I'm doing AI/DS from Saylani the skills i have learnt right now in AI/DS are Python /  Web Scraping / Numpy / Pandas."
   ),
   resumeLink:
     { CV }, // Set to empty to hide the button
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY MERN STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY MERN STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK. Currently doing Artificial Intelligence / Data Science",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -244,7 +244,18 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Github Repo",
-          url: "https://github.com/fahad15fede/Type-Master-Java"
+          url: "https://github.com/usaidahmed01/Type-Master-With-Java"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Map.png"),
+      projectName: "Map",
+      projectDesc: "Map using JAVA, Scene Bulider. Purpose of this project is to apply the DSA Algorithms such as DFS, BFS and Dijkstra etc. You can select the locations where you wanna go and also you can explore the areas!",
+      footerLink: [
+        {
+          name: "Visit Github Repo",
+          url: "https://github.com/usaidahmed01/DSA-Project"
         }
       ]
     },
@@ -391,7 +402,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "usaidahmed", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
